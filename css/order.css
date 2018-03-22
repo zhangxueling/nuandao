@@ -1,0 +1,77 @@
+.O {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.O .order {
+  width: 988px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.O .order .order-left {
+  position: relative;
+  width: 150px;
+  margin-left: 50px;
+  float: left;
+}
+.O .order .order-left .person {
+  position: absolute;
+  left: auto;
+  top: -52px;
+}
+.O .order .order-left dl {
+  width: 120px;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  margin-top: 90px;
+}
+.O .order .order-left dl dt {
+  margin-bottom: 20px;
+}
+.O .order .order-left dl dd {
+  padding-left: 2em;
+  margin-top: 10px;
+}
+.O .order .order-left dl dd a {
+  color: #666;
+}
+.O .order .order-right {
+  float: left;
+  width: 737px;
+  min-height: 720px;
+  padding-left: 50px;
+  padding-bottom: 87px;
+  font-size: 13px;
+  border-left: 1px solid #dfdfdf;
+}
+.O .order .order-right h3 {
+  color: #515050;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  line-height: 18px;
+  border-left: 4px solid #3ec0a3;
+  padding-left: 8px;
+}
+.O .order .order-right p {
+  margin-bottom: 60px;
+  line-height: 1.8;
+  color: #515050;
+}
+.O .order .order-right .no {
+  font-size: 18px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 0 10px 15px;
+}
+.O .order .order-right .no a {
+  display: inline-block;
+  background-color: #3ec0a3;
+  font-size: 16px;
+  line-height: 44px;
+  padding-left: 42px;
+  padding-right: 42px;
+  color: #FFFFFF;
+}

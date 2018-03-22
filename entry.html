@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录注册</title>
+		<link rel="stylesheet" type="text/css" href="css/entry.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<!--<div class="A">
+	
+			<div class="header">
+				
+					<img src="images/logo.jpg"/>
+					<div class="search">
+						<i></i>
+						<input type="text" name="" id="" value="" placeholder="请输入关键字搜索"/>
+					</div>
+					
+			        <span id="">每日10点上新&nbsp;&nbsp;&nbsp;&nbsp;满249元包邮</span>
+				
+			    <ul class="header-right" id="hr">
+			    	<li><a href=""><img src="images/gwc.jpg"/><span id="">购物车</span><strong>0</strong></a></li>
+			    	<li class="second">|</li>
+			    	<li class="third"><a href="">登录&nbsp;|&nbsp;注册</a></li>
+			    </ul>
+			</div>
+		</div>-->
+		<!--模板标识-->
+		<div class="default-bkg m-hidden"></div>
+		<!--透明层-->
+		<div class="default-bkg-filter m-hidden"></div>
+		<!--视频背景-->
+		<div class="video-bg m-hidden">
+			<video autoplay="autoplay" muted="muted" poster="images/default-bkg.jpg" loop="loop" style="width: 1366px;">
+				<source src="images/nuandao.m4v" type="video/mp4">
+			</video>
+		</div>
+		<!--登录注册-->
+		<div class="big-box">
+			<div class="box">
+				<!--左侧-->
+				<div class="box-left">
+					<h2>中国最具创造力的设计电商</h2>
+					<div class="best">
+						<span>让最好的一切发生</span>
+					</div>
+					<div class="gift">
+						注册就送
+						<strong>10元</strong>
+						现金券
+					</div>
+					<img src="images/login-cover-0808.gif"/>
+					<div class="news">每日全球设计新品&nbsp;2折起包邮+赠券特卖</div>
+				</div>	
+				<div class="boxright seven">
+					<ul class="entry">
+						<li class="active"><a href="javescript:;">登录&nbsp;|</a></li>
+						<li><a href="javescript:;"> &nbsp;注册</a></li>
+					</ul>
+					<div class="form-box active">
+						<form action="">
+							<input type="email" name="email" id="email" value="" class="email" placeholder="邮件地址"/>
+							<input type="password" name="" id="password" value=""  class="password"  placeholder="登录密码" />
+							<div class="getpassword">
+								<a href="">忘记密码</a>
+							</div>
+							<input type="submit" id="good" name="" value="登录暖岛"class="login" />
+							<!--<a href="" class="login">登录暖岛</a>-->
+							<div class="other">其他登录方式</div>
+							<a href="" class="sina">微博登岛</a>
+							<div class="another">
+								<a href="">更多&nbsp;▼</a>
+							</div>
+							<div class="logger">
+								<a href="" class="qq">QQ登岛</a>
+								<a href="" class="ren">人人登岛</a>
+							</div>
+							<div class="last">注册登录暖岛后，您已同意用户使用条款</div>
+							<a href="" class="app"></a>
+						</form>
+					</div>
+					<div class="form-box" style="display: none;">
+						<form action="">
+							<input type="email" name="" id="uyuy" value="" class="email" placeholder="邮件地址" autocomplete="off"/>
+							<input type="password" name="" id="yuyu" value=""  class="password"  placeholder="登录密码" />
+							<div class="getpassword">
+								<a href="">忘记密码</a>
+							</div>
+							<input type="submit" id="we" name="" value="注册暖岛"class="login" />
+							<!--<a href="" class="login">注册暖岛</a>-->
+							<div class="other">其他登录方式</div>
+							<a href="" class="sina">微博登岛</a>
+							<div class="another">
+								<a href="">更多&nbsp;▼</a>
+							</div>
+							<div class="logger">
+								<a href="" class="qq">QQ登岛</a>
+								<a href="" class="ren">人人登岛</a>
+							</div>
+							<div class="last">注册登录暖岛后，您已同意用户使用条款</div>
+							<a href="" class="app"></a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<!--<div class="I"style="position: fixed; right:0;bottom:0; left:0;top:550px">
+			<div class="foot-b">
+				<div class="foot-bb">
+					<ul class="foot-bb1">
+						<li><a href="/public/tc" target="_blank">使用条款</a></li>
+						<li class="hot"><a href="/app" target="_blank">暖岛APP</a></li>
+						<li class="friend"><a href="/public/links" target="_blank">友情链接</a></li>
+					</ul>
+					<div class="foot-bb2">
+						<span>Nuandao.com 北京暖岛网络信息科技有限公司 </span>©&nbsp;2011-2016&nbsp;All&nbsp;rights&nbsp;reserved&nbsp;<a href="http://www.miibeian.gov.cn">京ICP备13034710号-1</a>&nbsp;|&nbsp;京公网安备11010102001819号&nbsp;|&nbsp;执照号：91110108584425669B&nbsp;|&nbsp;食品经营许可证：
+					</div>
+				</div>
+				<div class="foot-cc">
+					<a href="javescript:;"></a>
+					<div class="tel">
+						<p>周一至周五9:30-18:00</p>
+						<p class="tell">客服热线：021-50276566</p>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		
+		<script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+		<!--验证邮箱格式-->
+		<script type="text/javascript">
+		 $("#email").blur(function(){
+		      var str = $("#email").val();
+		      var reg = /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
+		      if(reg.test(str)){
+		        console.log('ok');
+		      }else{
+		        console.log('wrong');
+		      }
+		    });
+		</script>
+		<script src="js/entry.js"></script>
+		<script>
+			$('.seven').boxright();
+				// 回车键登录
+				$(function () { 
+				$('#email').focus();
+				    //用户点击按钮
+				    $("#good").click(function () {
+				    //获取邮箱
+				    var email = $('#email').val();
+				    //获取密码
+				    var password = $('#password').val();
+				     if (email == "" || password == "") { alert("邮箱密码不能为空！"); 
+				    }else{
+					//调用登录方法
+				        $.ajax({
+			 		});
+				 		}
+				 });
+				$("body").keydown(function(event) {
+				 if (event.keyCode == "13") {//keyCode=13是回车键
+						$("#good").click();
+				 	}
+				}); 
+			});
+		</script>
+	</body>
+</html>

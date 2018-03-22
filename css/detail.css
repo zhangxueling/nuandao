@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/*家居创意*/
+.crumb-A {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.crumb-A .crumb {
+  width: 1240px;
+  margin: 0 auto;
+}
+.crumb-A .crumb a {
+  font-size: 13px;
+  color: #303030;
+  display: inline-block;
+}
+.crumb-A .crumb .crumb-one {
+  margin-left: 560px;
+  width: 30px;
+  height: 20px;
+  background: url(../images/nuandao.png) no-repeat 0 0;
+  background-position: 0 -100px;
+}
+.crumb-A .crumb .crumb-two {
+  width: 30px;
+  height: 20px;
+  margin-left: 8px;
+  background: url(../images/nuandao.png) no-repeat 0 0;
+  background-position: -40px -100px;
+}
+.crumb-A .crumb .crumb-three {
+  width: 30px;
+  height: 20px;
+  margin-left: 8px;
+  background: url(../images/nuandao.png) no-repeat 0 0;
+  background-position: -80px -100px;
+}
+.crumb-A .crumb .crumb-four {
+  background: url(../images/nuandao.png) no-repeat 0 0;
+  background-position: -120px -100px;
+  width: 30px;
+  height: 20px;
+  margin-left: 8px;
+}
+.crumb-A .crumb .crumb-five {
+  width: 30px;
+  height: 20px;
+  margin-left: 8px;
+  background: url(../images/nuandao.png) no-repeat 0 0;
+  background-position: -160px -100px;
+}
+
+/*商品展示区*/
+.show-A {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.show-A .show {
+  width: 1240px;
+  height: 575px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+.show-A .show #show-left {
+  width: 460px;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+.show-A .show #show-left #large-box {
+  display: none;
+  position: absolute;
+  top: 0 px;
+  left: 470px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.show-A .show #show-left #large-box img {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+}
+.show-A .show #show-left #middle-box {
+  position: relative;
+}
+.show-A .show #show-left #middle-box img {
+  width: 100%;
+}
+.show-A .show #show-left #middle-box #shadow {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 0, 0, 0.3);
+  cursor: move;
+}
+.show-A .show #show-left #small-box {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.show-A .show #show-left #small-box img {
+  float: left;
+  width: 80px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border: 1px solid #fff;
+}
+.show-A .show #show-left #small-box .active {
+  border-color: greenyellow;
+}
+.show-A .show .show-right {
+  width: 583px;
+  height: 560px;
+  float: left;
+}
+.show-A .show .show-right h3 {
+  font-size: 16px;
+  color: #303030;
+}
+.show-A .show .show-right .name {
+  display: block;
+  height: 25px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.show-A .show .show-right .name span {
+  color: #226f5e;
+  font-size: 18px;
+}
+.show-A .show .show-right .price {
+  margin-bottom: 10px;
+}
+.show-A .show .show-right .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 24px;
+  font-weight: bold;
+}
+.show-A .show .show-right .price a {
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 447px;
+  color: #666;
+  font-size: 13px;
+}
+.show-A .show .show-right .story {
+  width: 583px;
+  height: 144px;
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.show-A .show .show-right .story p {
+  display: inline;
+}
+.show-A .show .show-right .story a {
+  text-decoration: underline;
+}
+.show-A .show .show-right .serise {
+  width: 583px;
+  height: 61px;
+}
+.show-A .show .show-right .serise span {
+  color: #848484;
+  font-size: 13px;
+  width: 45px;
+  float: left;
+  padding-top: 5px;
+}
+.show-A .show .show-right .serise a {
+  width: 49px;
+  height: 49px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+.show-A .show .show-right .serise a img {
+  width: 47px;
+  height: 47px;
+}
+.show-A .show .show-right .serise .home {
+  border: #3ec0a3 1px solid;
+  padding: 0;
+}
+.show-A .show .show-right .cation {
+  width: 583px;
+  height: 42px;
+}
+.show-A .show .show-right .cation span {
+  color: #848484;
+  font-size: 13px;
+  width: 45px;
+  height: 22px;
+  padding-top: 5px;
+  margin-left: -105px;
+}
+.show-A .show .show-right .cation a {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 40px;
+  line-height: 28px;
+  border: #dfdfdf 1px solid;
+  text-align: center;
+  color: #848484;
+  margin-left: 10px;
+}
+.show-A .show .show-right .quantity {
+  height: 32px;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 20px;
+}
+.show-A .show .show-right .quantity span {
+  color: #848484;
+  font-size: 13px;
+  width: 45px;
+  float: left;
+  padding-top: 5px;
+}
+.show-A .show .show-right .quantity a {
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  width: 28px;
+  display: inline-block;
+  background-color: #f6f5f5;
+  color: #515050;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-align: center;
+  font-size: 14px;
+  border: #dfdfdf 1px solid;
+}
+.show-A .show .show-right .quantity .add {
+  margin-left: -5px;
+}
+.show-A .show .show-right .quantity input {
+  width: 50px;
+  height: 30px;
+  color: #515050;
+  border-left: none;
+  border-right: none;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  border: #dfdfdf 1px solid;
+  margin-left: -5px;
+}
+.show-A .show .show-right .push-button {
+  padding-top: 20px;
+  height: 44px;
+}
+.show-A .show .show-right .push-button button {
+  width: 148px;
+  line-height: 44px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  color: #eee;
+  font-size: 14px;
+  padding: 0;
+  border: none;
+  outline: none;
+  float: left;
+}
+.show-A .show .show-right .push-button .goto {
+  background-color: #3ec0a3;
+}
+.show-A .show .show-right .push-button #add-cart {
+  background-color: #f55555;
+}
+.show-A .show .show-right .push-button .onlinechat {
+  background-color: #56c1d5;
+}
+.show-A .show .show-right .push-button .like-button {
+  width: 57px;
+  height: 44px;
+  background-color: #dfdfdf;
+  float: left;
+  position: relative;
+  line-height: 40px;
+  color: #848484;
+  cursor: pointer;
+}
+.show-A .show .show-right .push-button .like-button a {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+  background-color: red;
+  background: url(../images/nuandao.png) no-repeat 0 -130px;
+}
+.show-A .show .show-right .push-button .like-button .box {
+  display: none;
+  width: 394px;
+  height: 3px;
+  border: #3ec0a3 2px solid;
+  background-color: #fff;
+  padding: 20px;
+  right: 0;
+  top: 56px;
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+.show-A .show .show-right .extra {
+  background: red;
+  padding-left: 20px;
+  background: url(../images/nuandao.png) no-repeat -340px -67px;
+  height: 22px;
+  margin-top: 10px;
+}
+.show-A .show .show-right .extra p {
+  color: #d9534f;
+  float: left;
+  font-size: 13px;
+}
+
+/*猜你喜欢*/
+.like-A {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.like-A ul {
+  width: 1240px;
+  margin: 10px  auto;
+}
+.like-A ul h3 {
+  font-size: 13px;
+  color: #515050;
+  font-weight: 100px;
+}
+.like-A ul li {
+  float: left;
+  margin-bottom: 10px;
+}
+.like-A ul li a {
+  display: inline-block;
+  width: 148px;
+  height: 148px;
+  margin-left: 25px;
+}
+.like-A ul li a img {
+  width: 148px;
+  height: 148px;
+}
+
+/*顾客评论区*/
+.choice-A {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.choice-A .choice {
+  width: 1240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.choice-A .choice .product-story {
+  height: 42px;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 2px solid #dfdfdf;
+}
+.choice-A .choice .product-story li {
+  box-sizing: border-box;
+  float: left;
+}
+.choice-A .choice .product-story li a {
+  color: #226f5e;
+  margin-bottom: -2px;
+  line-height: 40px;
+  width: 410px;
+  display: inline-block;
+  text-align: center;
+}
+.choice-A .choice .product-story .active a {
+  border-bottom: 2px solid #3ec0a3;
+}
+.choice-A .choice .describe {
+  width: 100%;
+}
+.choice-A .choice .describe h4 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 10px 0 10px 0;
+}
+.choice-A .choice .describe .des-p {
+  height: 100px;
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.choice-A .choice .describe .dogs {
+  margin-top: 60px;
+  height: 100px;
+}
+.choice-A .choice .describe .dogs ul {
+  float: left;
+  color: #303030;
+  font-size: 13px;
+  margin-left: 80px;
+}
+.choice-A .choice .describe .dogs .dogs-A {
+  margin-left: 0;
+}
+.choice-A .choice .describe .dogs-B {
+  height: 50px;
+  color: #666;
+  font-size: 13px;
+}
+.choice-A .choice .describe .dogs-C img {
+  width: 280px;
+  height: 300px;
+}
+.choice-A .choice .describe .dogs-D {
+  height: 50px;
+  color: #666;
+  font-size: 13px;
+}
+.choice-A .choice .describe .dogs-E img {
+  width: 300px;
+  height: 300px;
+}
+
+.choice .describe.active {
+  display: block;
+}

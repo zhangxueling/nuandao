@@ -1,0 +1,659 @@
+@charset "UTF-8";
+
+.C{
+    width: 100%;
+    height: 100%;
+    .menu{
+        width: 1240px;
+        margin: 0 auto;
+        position: relative;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #ccc;
+        .menu-left{
+                border: #dfdfdf 2px solid;
+                padding :8px 28px 8px 45px;
+                float: left;
+                width: 100px;
+                &:after{
+                        content: "";
+                        position: absolute;
+                        left: 120px;
+                        top: 45%;
+                        border: 6px solid transparent;
+                        border-top-color: #ccc;
+                        float: left;
+                    }
+                }
+            .change{
+                border: 2px solid #3EC0A3;
+                background-color: #3ec0a3;
+                color: #fff;
+            }
+            .menu-right{
+                    float:left;
+                    position: relative;
+                    width:120px ;
+                    margin-left:100px;
+                    border: none;
+                    padding: 10px 8px 10px 8px;
+                    span{
+                       font-size: 14px;
+                    }
+                     &:after{
+                                content: "";
+                                position: absolute;
+                                left: 100px;
+                                top:45%;
+                                border: 6px solid transparent;
+                                border-top-color: #ccc;
+                                float: left;
+                            }
+                    }
+                    ul{
+                        display: none;
+                        position: absolute;
+                        left: -2px;
+                        right: -2px;
+                        top: 41px;
+                        z-index: 1;
+                        border: #dfdfdf 2px solid;
+                        font-size: 13px;
+                        background-color: #fff;
+                        li{
+                            padding-top: 10px;
+                            margin-left:5px;
+                            padding-bottom: 10px;
+                        }
+                    }
+             .number{
+                 float: right;
+                 margin-left: 20px;
+                 padding-top: 10px;
+                 font-size: 14px;
+             }
+        }
+        
+            
+    }
+/*右侧菜单*/
+ .two{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .product{
+        width: 1240px;
+        margin: 0 auto;
+        margin-top: 50px;
+        div{
+            float: left;
+            a{
+                display: block;
+                width: 232px;
+                position: relative;
+                img{
+                    border:none;
+                    width: 232px;
+                    height: 232px;
+                }
+            }
+        }
+        .product-1{
+                margin-right:10px;
+                margin-bottom: 30px;
+                
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-2{
+                margin: 0 10px 0 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-3{
+                margin: 0 10px 0 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-4{
+                margin-left: 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+                
+        }
+        .product-5{
+                  margin-left: 20px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }    
+    }
+}
+.three{
+    width:100%;
+    height: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+    .sort{
+        width: 1240px;
+        background: pink;
+        margin: 0 auto;
+        dl{
+            float: left;
+             padding-left: 30px;
+           dt{
+               margin-bottom: 30px;
+               cursor: pointer;
+           }
+           dd{
+               padding-left: 16px;
+               margin-bottom: 60px;
+               
+           }
+           .accessory{
+              a{
+                display: block;
+                padding-left: 24px;
+                width: 148px;
+                background: url(../images/nuandao.png) no-repeat -340px -138px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size:14px;
+                color: #333333;
+                margin-top: 14px;
+                &:hover{
+                      background-position:-340px -178px;
+                }
+              }
+           }
+           .tinct{
+                width: 188px;
+                padding-left: 8px;
+                a{
+                    display: inline-block;
+                    margin-left: 4px;
+                    border: 1px solid #dfdfdf;
+                    margin-bottom: 4px;
+                    width: 24px;
+                    height: 24px;
+                    text-decoration: none;
+                    font-size: 13px;
+                    color: #515050;
+                    &:hover{
+                        border-color: #3ec0a3;
+                    }
+                }
+                .tinct1{
+                    background-color: #ffd33a;
+                }
+                .tinct2{
+                    background-color:  #ec2f2f;
+                }
+                .tinct3{
+                    background-color:  #ff5692;
+                }
+                .tinct4{
+                    background-color: #bd49a9;
+                }
+                .tinct5{
+                    background-color: #2679a9;
+                }
+                .tinct6{
+                    background-color: #00a742;
+                }
+                .tinct7{
+                    background-color: #000;
+                }
+                .tinct8{
+                    background-color: #eee;
+                }
+                .tinct9{
+                    background-color: #eacd76;
+                }
+                .tinct10{
+                    background-color: #ff6600;
+                    }
+                .tinct11{
+                    background-color: yellow;
+                }
+                .tinct12{
+                    background-color: olivedrab;
+                }
+                .tinct13{
+                    background-color:oldlace;
+                }
+                .tinct14{
+                   background: -webkit-gradient(linear, left top, right top, from(#2a8bbe), color-stop(.33, #aad010), color-stop(.66, #ff7f00), to(#fe280e));
+                }
+           }
+           .brand{
+               a{
+                   display: block;
+                    padding-left: 24px;
+                    width: 148px;
+                    background: url(../images/nuandao.png) no-repeat -340px -138px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    text-decoration: none;
+                    font-size: 13px;
+                    color: #515050;
+                    margin-top: 14px;
+                    &:hover{
+                        background: url(../images/nuandao.png) no-repeat -340px -178px;
+                    }
+               }
+           }
+        }
+        .product{
+                width: 988px;
+                float: left;
+                margin-left: 20px;
+//              margin: 0 auto;
+//              margin-top: 50px;
+        div{
+            float: left;
+            a{
+                display: block;
+                width: 232px;
+                position: relative;
+                img{
+                    border:none;
+                    width: 232px;
+                    height: 232px;
+                }
+            }
+        }
+        .product-1{
+            
+                margin-right:10px;
+                margin-bottom: 30px;
+                
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-2{
+                margin: 0 10px 0 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-3{
+                margin: 0 10px 0 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-4{
+                margin-left: 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }   
+        }
+        
+    }
+}

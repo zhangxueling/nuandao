@@ -1,0 +1,646 @@
+@charset "UTF-8";
+.C {
+  width: 100%;
+  height: 100%;
+}
+.C .menu {
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.C .menu .menu-left {
+  border: #dfdfdf 2px solid;
+  padding: 8px 28px 8px 45px;
+  float: left;
+  width: 100px;
+}
+.C .menu .menu-left:after {
+  content: "";
+  position: absolute;
+  left: 120px;
+  top: 45%;
+  border: 6px solid transparent;
+  border-top-color: #ccc;
+  float: left;
+}
+.C .menu .change {
+  border: 2px solid #3EC0A3;
+  background-color: #3ec0a3;
+  color: #fff;
+}
+.C .menu .menu-right {
+  float: left;
+  position: relative;
+  width: 120px;
+  margin-left: 100px;
+  border: none;
+  padding: 10px 8px 10px 8px;
+}
+.C .menu .menu-right span {
+  font-size: 14px;
+}
+.C .menu .menu-right:after {
+  content: "";
+  position: absolute;
+  left: 100px;
+  top: 45%;
+  border: 6px solid transparent;
+  border-top-color: #ccc;
+  float: left;
+}
+.C .menu ul {
+  display: none;
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: 41px;
+  z-index: 1;
+  border: #dfdfdf 2px solid;
+  font-size: 13px;
+  background-color: #fff;
+}
+.C .menu ul li {
+  padding-top: 10px;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+.C .menu .number {
+  float: right;
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+/*右侧菜单*/
+.two {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.two .product {
+  width: 1240px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.two .product div {
+  float: left;
+}
+.two .product div a {
+  display: block;
+  width: 232px;
+  position: relative;
+}
+.two .product div a img {
+  border: none;
+  width: 232px;
+  height: 232px;
+}
+.two .product .product-1 {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.two .product .product-1 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.two .product .product-1 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.two .product .product-1 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.two .product .product-1 .info .price {
+  line-height: 16px;
+}
+.two .product .product-1 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.two .product .product-1 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.two .product .product-2 {
+  margin: 0 10px 0 10px;
+  margin-bottom: 30px;
+}
+.two .product .product-2 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.two .product .product-2 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.two .product .product-2 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.two .product .product-2 .info .price {
+  line-height: 16px;
+}
+.two .product .product-2 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.two .product .product-2 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.two .product .product-3 {
+  margin: 0 10px 0 10px;
+  margin-bottom: 30px;
+}
+.two .product .product-3 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.two .product .product-3 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.two .product .product-3 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.two .product .product-3 .info .price {
+  line-height: 16px;
+}
+.two .product .product-3 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.two .product .product-3 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.two .product .product-4 {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.two .product .product-4 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.two .product .product-4 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.two .product .product-4 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.two .product .product-4 .info .price {
+  line-height: 16px;
+}
+.two .product .product-4 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.two .product .product-4 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.two .product .product-5 {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.two .product .product-5 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.two .product .product-5 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.two .product .product-5 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.two .product .product-5 .info .price {
+  line-height: 16px;
+}
+.two .product .product-5 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.two .product .product-5 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+
+.three {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.three .sort {
+  width: 1240px;
+  background: pink;
+  margin: 0 auto;
+}
+.three .sort dl {
+  float: left;
+  padding-left: 30px;
+}
+.three .sort dl dt {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.three .sort dl dd {
+  padding-left: 16px;
+  margin-bottom: 60px;
+}
+.three .sort dl .accessory a {
+  display: block;
+  padding-left: 24px;
+  width: 148px;
+  background: url(../images/nuandao.png) no-repeat -340px -138px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #333333;
+  margin-top: 14px;
+}
+.three .sort dl .accessory a:hover {
+  background-position: -340px -178px;
+}
+.three .sort dl .tinct {
+  width: 188px;
+  padding-left: 8px;
+}
+.three .sort dl .tinct a {
+  display: inline-block;
+  margin-left: 4px;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 4px;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #515050;
+}
+.three .sort dl .tinct a:hover {
+  border-color: #3ec0a3;
+}
+.three .sort dl .tinct .tinct1 {
+  background-color: #ffd33a;
+}
+.three .sort dl .tinct .tinct2 {
+  background-color: #ec2f2f;
+}
+.three .sort dl .tinct .tinct3 {
+  background-color: #ff5692;
+}
+.three .sort dl .tinct .tinct4 {
+  background-color: #bd49a9;
+}
+.three .sort dl .tinct .tinct5 {
+  background-color: #2679a9;
+}
+.three .sort dl .tinct .tinct6 {
+  background-color: #00a742;
+}
+.three .sort dl .tinct .tinct7 {
+  background-color: #000;
+}
+.three .sort dl .tinct .tinct8 {
+  background-color: #eee;
+}
+.three .sort dl .tinct .tinct9 {
+  background-color: #eacd76;
+}
+.three .sort dl .tinct .tinct10 {
+  background-color: #ff6600;
+}
+.three .sort dl .tinct .tinct11 {
+  background-color: yellow;
+}
+.three .sort dl .tinct .tinct12 {
+  background-color: olivedrab;
+}
+.three .sort dl .tinct .tinct13 {
+  background-color: oldlace;
+}
+.three .sort dl .tinct .tinct14 {
+  background: -webkit-gradient(linear, left top, right top, from(#2a8bbe), color-stop(0.33, #aad010), color-stop(0.66, #ff7f00), to(#fe280e));
+}
+.three .sort dl .brand a {
+  display: block;
+  padding-left: 24px;
+  width: 148px;
+  background: url(../images/nuandao.png) no-repeat -340px -138px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 13px;
+  color: #515050;
+  margin-top: 14px;
+}
+.three .sort dl .brand a:hover {
+  background: url(../images/nuandao.png) no-repeat -340px -178px;
+}
+.three .sort .product {
+  width: 988px;
+  float: left;
+  margin-left: 20px;
+}
+.three .sort .product div {
+  float: left;
+}
+.three .sort .product div a {
+  display: block;
+  width: 232px;
+  position: relative;
+}
+.three .sort .product div a img {
+  border: none;
+  width: 232px;
+  height: 232px;
+}
+.three .sort .product .product-1 {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.three .sort .product .product-1 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.three .sort .product .product-1 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.three .sort .product .product-1 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.three .sort .product .product-1 .info .price {
+  line-height: 16px;
+}
+.three .sort .product .product-1 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.three .sort .product .product-1 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.three .sort .product .product-2 {
+  margin: 0 10px 0 10px;
+  margin-bottom: 30px;
+}
+.three .sort .product .product-2 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.three .sort .product .product-2 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.three .sort .product .product-2 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.three .sort .product .product-2 .info .price {
+  line-height: 16px;
+}
+.three .sort .product .product-2 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.three .sort .product .product-2 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.three .sort .product .product-3 {
+  margin: 0 10px 0 10px;
+  margin-bottom: 30px;
+}
+.three .sort .product .product-3 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.three .sort .product .product-3 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.three .sort .product .product-3 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.three .sort .product .product-3 .info .price {
+  line-height: 16px;
+}
+.three .sort .product .product-3 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.three .sort .product .product-3 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}
+.three .sort .product .product-4 {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.three .sort .product .product-4 .info {
+  position: relative;
+  font-size: 12px;
+  margin-top: 18px;
+  height: 48px;
+  overflow: hidden;
+}
+.three .sort .product .product-4 .info .title {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.three .sort .product .product-4 .info .title a {
+  color: #515050;
+  font-size: 14px;
+  display: block;
+  width: 232px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.three .sort .product .product-4 .info .price {
+  line-height: 16px;
+}
+.three .sort .product .product-4 .info .price span {
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #3ec0a3;
+  font-size: 16px;
+  font-size: 12px;
+}
+.three .sort .product .product-4 .info .like {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 60px;
+  font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+  color: #848484;
+  font-size: 15px;
+  padding-right: 24px;
+  text-align: right;
+  cursor: pointer;
+  background: url(../images/nuandao.png) no-repeat 61px -129px;
+}

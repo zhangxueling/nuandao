@@ -1,0 +1,496 @@
+@charset "UTF-8";
+body,ul,li,p,dl,dt,dd,h1,h2,h4,h5,h6,input,img{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: bottom;
+}
+html body{
+    height: 100%;
+}
+/*头部*/
+.A{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #333333;
+    .header{
+            width: 1240px;
+            margin: auto;
+            text-align: center;
+            line-height: 46px;
+            background: #333333;
+            img {
+                    float:left;
+                }
+            .search{
+                        position:relative;
+                        float:left;
+                        width: 360px;
+                        height: 36px;
+                        padding: 1px 0 1px 20px;
+                        background-color: #fff;
+                        font-size: 16px;
+                        margin: 4px 16px 0;
+                        i{
+                            width: 13px;
+                            height: 13px;
+                            float: left;
+                            background: url(../images/nuandao.png) no-repeat -260px -280px;
+                            position: absolute;
+                            left: 10px;
+                            top: 12px;
+                        }
+                        input {
+                        font-size: 16px;
+                        width:347px;
+                        line-height: 34px;
+                        float:right;
+                        outline: none;
+                        border: none ;
+                        }
+        }
+    }
+}
+
+.header span {
+    float: left;
+    font-size: 13px;
+    color: #e396ff;
+}
+
+.header-right{
+    float:left;
+}
+
+.header-right li{
+    float:left;
+}
+.header-right li img{
+    margin: 15px 7px  0 183px;
+}
+.header-right li a span{
+    /*display: block;*/
+    font-size:13px;
+    color: #eeeeee;
+    cursor: pointer;
+    
+}
+.header-right li a strong{
+    background-color: #3ec0a3;
+    width: 22px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+    float:right;
+    display:block;
+    margin-top: 14px;
+    margin-left: 8px;
+    color: #eeeeee;
+}
+.header-right .second{
+    width: 54px;
+    height: 20px;
+    font-size: 13px;
+    color:#eeeeee;
+}
+.header-right .third a{
+    display: block;
+    width: 82px;
+    height: 22px;
+    margin-top: 14px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #eeeeee;
+    border: 1px solid #ffffff;
+}
+/*导航*/
+.B{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    background:#fff;
+    .nav{
+        width: 1240px;
+        margin: auto;
+        margin-bottom: 70px;
+        .tab {
+                    float: left;
+                    width: 640px;
+        }
+    }
+}
+
+
+
+.nav-right{
+    float: left;
+    margin-left:320px;
+    position: relative;
+}
+.nav-right li {
+    float:left;
+    line-height: 36px; 
+    .i-one{
+        display: block;
+        width: 140px;
+        margin-left: 20px;
+        i{
+            background: url(../images/nuandao.png) no-repeat -200px -280px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+    .i-two{
+         display: block;
+         width: 80px;
+        i{
+            background: url(../images/nuandao.png) no-repeat -160px -280px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+    .i-three{
+         display: block;
+         width: 40px;
+        i{
+            background: url(../images/nuandao.png) no-repeat -220px -280px;
+            width:25px;
+            height: 20px;
+        }
+    }
+}
+.nav-right li a span{
+    float: left;
+    font-size: 13px;
+    color: #303030;
+   padding-left: 20px;
+}
+.nav-right li a i{
+    float: left;
+    position: absolute;
+    top: 10px;
+   
+}
+
+.tab{
+            width: 640px;
+        }
+.tab .menu{
+            overflow: hidden;
+        }
+.tab .menu li{
+            box-sizing: border-box;
+            font-size: 14px;
+            float: left;
+            width: 80px;
+            line-height: 37px;
+            text-align: center;
+            cursor: pointer;
+
+        }
+        .tab .menu .active {
+                border-bottom:2px solid #ac0;
+                font-weight: bold;
+                color: #3EC0A3;
+        
+}
+.tab .navitem{
+    display: none;
+}
+.navitem {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+  left: 0;
+  top: 84px;
+  margin-left: 0;
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.navitem .content {
+  width: 1240px;
+  height: 350px;
+  margin: 0 auto;
+}
+.navitem .content .list-left {
+  width: 420px;
+  height: 350px;
+  border-right: 1px solid #ededed;
+  float: left;
+}
+.navitem .content .list-left h3 {
+  display: block;
+  font-size: 14px;
+  color: #a3a3a3;
+  line-height: 80px;
+  font-weight: bold;
+}
+.navitem .content .list-left .one {
+  float: left;
+  width: 120px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.navitem .content .list-left .one li {
+  float: none;
+}
+.navitem .content .list-left .one li a {
+  color: #303030;
+  font-size: 14px;
+}
+.navitem .content .list-right {
+  width: 819px;
+  height: 350px;
+  float: left;
+}
+.navitem .content .list-right h3 {
+  display: block;
+  font-size: 14px;
+  color: #a3a3a3;
+  margin-left: 90px;
+  line-height: 80px;
+  font-weight: bold;
+}
+.navitem .content .list-right .two {
+  float: left;
+  width: 120px;
+  margin-right: 20px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.navitem .content .list-right .two li {
+  float: none;
+}
+.navitem .content .list-right .two li a {
+  color: #303030;
+  font-size: 14px;
+}
+.navitem .content .list-right .three {
+  float: left;
+  width: 300px;
+  padding-top: 10px;
+}
+.navitem .content .list-right .three li {
+    float:left;
+  margin-right: 6px;
+}
+.navitem .content .list-right .three li a {
+  width: 94px;
+}
+.navitem .content .list-right .three li a img {
+  width: 94px;
+  height: 94px;
+}
+.tab .navitem.active {
+    display: block;
+}
+/*底部清单*/
+.H{
+    width: 100%;
+    height: 100%;
+    background: #303030;
+    
+    overflow: hidden;
+    .footer{
+        width: 1240px;
+        margin: 0 auto;
+        .footer-left{
+            float:left;
+            width: 820px;
+            background: #303030;
+            ul{
+                float:left;
+                width: 80px;
+                margin-right: 80px;
+                margin-bottom: 30px;
+                h4{
+                    line-height: 28px;
+                    margin-top: 24px ;
+                    font-size: 15px;
+                    color: #dfdfdf;
+                }
+                li{
+                    line-height: 40px;
+                    a{
+                        font-size: 13px;
+                        color: #5a6666;
+                    }
+                }
+            }
+        }
+        .footer-right{
+            float: left;
+            width: 420px;
+            height: 246px;
+            h4{
+                line-height: 28px;
+                margin-top: 24px ;
+                font-size: 15px;
+                color: #dfdfdf;
+                }
+            .email{
+                position: relative;
+                width: 302px;
+                height: 52px;
+                margin-top: 14px;
+                
+                .search-f{
+                        width: 248px;
+                        height: 52px;
+                        border:none;
+                        float: left;
+                        text-indent: 16px;
+                        outline: none;
+                        background: #434343;
+                    }
+                a{
+                    display: block;
+                    width:54px ;
+                    height: 52px;
+                    float: left;
+                    color: transparent;
+                    text-shadow: none;
+                    background-color: transparent;
+                    border: 0;
+                    background: #4b4b4b;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    i{
+                         position: absolute;
+                        right: 22%;
+                        top: 30%;
+                        font: 0/0 a;
+                        color: transparent;
+                        text-shadow: none;
+                        background-color: transparent;
+                        border: 0;
+                        width: 32px;
+                        height: 22px;
+                        background: url(../images/nuandao.png) no-repeat -200px 0;
+                    }
+                   
+                }
+            }
+            .sns{
+                width: 320px;
+                height: 55px;
+                margin-top: 40px;
+                ul{
+                    li{
+                        float: left;
+                        margin-left: 24px;
+                        a{
+                            display: block;
+                            width: 40px;
+                            height: 40px;
+                            background: yellow;
+                            }
+                        .weibo{
+                                background: url(../images/nuandao.png) no-repeat 0 0;
+                                background-position: 0 0;                    
+                            }
+                        .weixin{
+                                 background: url(../images/nuandao.png) no-repeat 0 0;
+                                 background-position: 0 -167px;
+                            }
+                        .six{
+                                 background: url(../images/nuandao.png) no-repeat 0 0;
+                                 background-position: -46px -167px;
+                            }
+                        .beauty{
+                                 background: url(../images/nuandao.png) no-repeat 0 0;
+                                 background-position: -40px 0;
+                            } 
+                        .douban{
+                                 background: url(../images/nuandao.png) no-repeat 0 0;
+                                 background-position: -160px 0;
+                                 }
+                        }
+                    }
+                 }
+            }
+        }
+    }
+/*底部*/
+.I{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .foot-b{
+        width: 1240px;
+        margin: 0 auto;
+        .foot-bb{
+            width: 1040px;
+            height: 100px;
+            float: left;
+            ul{
+                height:18px;
+                margin-top: 16px;
+                li{
+                    float: left;
+                
+                    a{
+                        color: #303030;
+                        font-size: 13px;
+                    }
+                }
+                .hot:before{
+                     content: "|";
+                     padding-left: 14px;
+                     margin-right: 18px;
+                     font-size: 14px;
+                }
+                .friend:before{
+                    content: "|";
+                     padding-left: 14px;
+                     font-size: 13px;
+                     margin-right: 18px;
+                }
+             
+            }
+            .foot-bb2{
+                font-size: 12px;
+                margin-top: 10px;
+                a{
+                   color: #303030;
+                   }
+                }
+        }
+        .foot-cc{
+            width: 200px;
+            height: 100px;
+             float: left;
+            a{
+                display: block;
+                float: left;
+                width: 96px;
+                height: 42px;
+                margin-left: 20px;
+                background: url(../images/315icon.gif);
+            }
+            .tel{
+                float: right;
+                p{
+                    font-size: 12px;
+                    color: #303030;
+                }
+                .tell{
+                    text-indent: -20px;
+                }
+            }
+        }
+    }
+}

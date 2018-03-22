@@ -1,0 +1,311 @@
+@charset "UTF-8";
+body,ul,li,p,dl,dt,dd,h1,h2,h4,h5,h6,input,img{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+html body{
+    height: 100%;
+}
+/*让艺术融入生活*/
+.one{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    .art{
+        width: 988px;
+        height: 440px;
+        margin: 0 auto;
+        .bigphoto{
+            float: left;
+            width: 360px;
+            height: 360px;
+            margin-right: 40px;
+            
+        }
+        .art-right{
+            width: 588px;
+            height: 440px;
+            float: left;
+            h2{
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 2px;
+                display: block;
+            }
+            h4{
+                margin-top: 10px;
+                margin-bottom: 28px;
+                font-weight: normal;
+                font-size: 16px;
+            }
+            p{
+                color: #848484;
+                line-height: 22px;
+                font-size: 14px;
+                margin-bottom: 40px;
+            }
+            .person{
+                width: 588px;
+                height: 261px;
+                border-top: 1px dashed #dfdfdf;
+                img{
+                    float: left;
+                    width: 80px;
+                    height: 80px;
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    margin-bottom: 5px;
+                }
+                .person-name{
+                    color: #515050;
+                    height: 20px;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+                .person-z{
+                     height: 88px;
+                     margin-top: 20px;
+                    em{
+                    color: #848484;
+                    font-size: 14px;
+                    line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 产品展示*/
+.two{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .product{
+        width: 988px;
+        margin: 0 auto;
+        div{
+            float: left;
+            a{
+                display: block;
+                width: 232px;
+                position: relative;
+                img{
+                    border:none;
+                    width: 232px;
+                    height: 232px;
+                }
+            }
+        }
+        .product-1{
+                margin-right:10px;
+                margin-bottom: 30px;
+                
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-2{
+                margin: 0 10px 0 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-3{
+                margin: 0 10px 0 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+            }
+        .product-4{
+                margin-left: 10px;
+                  margin-bottom: 30px;
+                .info{
+                    position: relative;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    height: 48px;
+                    overflow: hidden;
+                    .title{
+                        margin-bottom: 8px;
+                        width: 100%;
+                        a{
+                           color: #515050;
+                            font-size: 14px;
+                            display: block;
+                            width: 232px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    .price{
+                        line-height: 16px;
+                        span{
+                            font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                            color: #3ec0a3;
+                            font-size: 16px;
+                            font-size: 12px;
+                        }
+                    }
+                    .like{
+                        position: absolute;
+                        right: 0;
+                        bottom: 4px;
+                        width: 60px;
+                        font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+                        color: #848484;
+                        font-size: 15px;
+                        padding-right: 24px;
+                        text-align: right;
+                        cursor: pointer;
+                        background: url(../images/nuandao.png) no-repeat 61px -129px;
+                    }
+                }
+        }
+    }
+}
+/*更多好商品*/
+.three{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .more{
+        width: 988px;
+        background: blue;
+        margin: 0 auto;
+        h2{
+            margin-top: 40px;
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
